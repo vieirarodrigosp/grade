@@ -1,0 +1,54 @@
+{
+	"info": {
+		"_postman_id": "9b6c7fd3-b02c-40dc-a941-f2fdbeb4b3cc",
+		"name": "PrimeIssuer",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Primeissuer - ProductInquiry",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "f974930f-0585-4f89-896b-91e12bc42d7f",
+						"exec": [
+							"var response = pm.response.json();",
+							"",
+							"pm.environment.set(\"acquire_ticket\", response.acquireTicketResult.ticket);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"xmlRequest\": {\r\n    \"header\": {\r\n      \"messageID\": \"c6dd402d-c58b-460e-b52e-1bd44610fba3\"\r\n    },\r\n    \"ticket\": {\r\n    }\r\n  }\r\n}\r\n\r\n{\r\n  \"xmlRequest\": {\r\n    \"defaultOnly\": true,\r\n    \"header\": {\r\n      \"messageID\": \"c6dd402d-c58b-460e-b52e-1bd44610fba3\",\r\n      \"ticket\": \"string\"\r\n    },\r\n    \"product\": \"string\",\r\n    \"templateCode\": \"string\",\r\n    \"type\": \"ACCOUNT\"\r\n  }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://{{endpointPrimeIssuer}}/cards/v1/prime-issuer/product-inquiry",
+					"protocol": "https",
+					"host": [
+						"{{endpointPrimeIssuer}}"
+					],
+					"path": [
+						"cards",
+						"v1",
+						"prime-issuer",
+						"product-inquiry"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
