@@ -17,11 +17,4 @@ public class GradeDTO {
 	TermEnum term;
 	GradeEnum grade;
 	CicloEnum ciclo;
-//	String year;
-//	String term;
-//	String grade;
-//	String ciclo;
-	
-//	String name;
-//	String matricula;
 }
