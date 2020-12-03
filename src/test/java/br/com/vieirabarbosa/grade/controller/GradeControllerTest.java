@@ -1,4 +1,4 @@
-package vieirabarbosa.com.br.grade.controller;
+package br.com.vieirabarbosa.grade.controller;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
@@ -11,12 +11,12 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import vieirabarbosa.com.br.grade.DTO.GradeDTO;
-import vieirabarbosa.com.br.grade.business.object.RegisterGradeBO;
-import vieirabarbosa.com.br.grade.config.VariablesMocked;
-import vieirabarbosa.com.br.grade.enums.CicloEnum;
-import vieirabarbosa.com.br.grade.enums.GradeEnum;
-import vieirabarbosa.com.br.grade.enums.TermEnum;
+import br.com.vieirabarbosa.grade.DTO.GradeDTO;
+import br.com.vieirabarbosa.grade.business.object.RegisterGradeBO;
+import br.com.vieirabarbosa.grade.config.VariablesMocked;
+import br.com.vieirabarbosa.grade.enums.CicloEnum;
+import br.com.vieirabarbosa.grade.enums.GradeEnum;
+import br.com.vieirabarbosa.grade.enums.TermEnum;
 
 @RunWith(SpringRunner.class)
 public class GradeControllerTest {

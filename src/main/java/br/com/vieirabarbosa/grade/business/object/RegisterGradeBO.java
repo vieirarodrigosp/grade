@@ -1,11 +1,11 @@
-package vieirabarbosa.com.br.grade.business.object;
+package br.com.vieirabarbosa.grade.business.object;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.stereotype.Component;
 
-import vieirabarbosa.com.br.grade.DTO.GradeDTO;
+import br.com.vieirabarbosa.grade.DTO.GradeDTO;
 
 @Component
 public class RegisterGradeBO {

@@ -1,4 +1,4 @@
-package vieirabarbosa.com.br.grade.enums;
+package br.com.vieirabarbosa.grade.enums;
 
 public enum CicloEnum {
 	ENSINO_MEDIO,

@@ -1,4 +1,4 @@
-package vieirabarbosa.com.br.grade;
+package br.com.vieirabarbosa.grade;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

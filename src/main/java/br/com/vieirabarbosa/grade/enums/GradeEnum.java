@@ -1,4 +1,4 @@
-package vieirabarbosa.com.br.grade.enums;
+package br.com.vieirabarbosa.grade.enums;
 
 public enum GradeEnum {
 	PRIMEIRA_SERIE("ENSINO_FUNDAMENTAL"),

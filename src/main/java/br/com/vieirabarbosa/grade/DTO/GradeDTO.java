@@ -1,12 +1,12 @@
-package vieirabarbosa.com.br.grade.DTO;
+package br.com.vieirabarbosa.grade.DTO;
 
+import br.com.vieirabarbosa.grade.enums.CicloEnum;
+import br.com.vieirabarbosa.grade.enums.GradeEnum;
+import br.com.vieirabarbosa.grade.enums.TermEnum;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
-import vieirabarbosa.com.br.grade.enums.CicloEnum;
-import vieirabarbosa.com.br.grade.enums.GradeEnum;
-import vieirabarbosa.com.br.grade.enums.TermEnum;
 
 @Getter
 @Setter

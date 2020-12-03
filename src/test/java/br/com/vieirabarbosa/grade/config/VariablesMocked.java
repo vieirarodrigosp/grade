@@ -1,12 +1,12 @@
-package vieirabarbosa.com.br.grade.config;
+package br.com.vieirabarbosa.grade.config;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import vieirabarbosa.com.br.grade.DTO.GradeDTO;
-import vieirabarbosa.com.br.grade.enums.CicloEnum;
-import vieirabarbosa.com.br.grade.enums.GradeEnum;
-import vieirabarbosa.com.br.grade.enums.TermEnum;
+import br.com.vieirabarbosa.grade.DTO.GradeDTO;
+import br.com.vieirabarbosa.grade.enums.CicloEnum;
+import br.com.vieirabarbosa.grade.enums.GradeEnum;
+import br.com.vieirabarbosa.grade.enums.TermEnum;
 
 public class VariablesMocked {
 	public static GradeDTO getGrade() {
